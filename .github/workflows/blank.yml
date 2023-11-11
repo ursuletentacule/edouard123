@@ -1,0 +1,47 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edouarding's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="branding">
+            <img src="logo.png" alt="Edouarding Logo">
+            <h1>edouarding.com</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cobra.html">Cobra Corner</a></li>
+                <li><a href="yoda.html">Yoda's Wisdom</a></li>
+                <li><a href="harrypotter.html">Harry Potter's Wizarding World</a></li>
+                <!-- More navigation items here -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <h2>this website gives good information!</h2>
+        </section>
+        <!-- Additional content sections here -->
+    </main>
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
